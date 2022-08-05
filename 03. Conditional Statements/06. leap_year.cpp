@@ -1,12 +1,3 @@
-/*
-author : Anmol Tomer
-email : anmol3540@gmail.com
-
-*/
-/*
-edited by : Pruthviraj Jadhav
-email : k9730130467@gmail.com
-*/
 #include <iostream>
 using namespace std;
 int main()
