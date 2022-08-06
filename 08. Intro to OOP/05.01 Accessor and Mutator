@@ -1,0 +1,20 @@
+An accessor is a class method used to read data members, while a mutator is a class method used to change data members.
+
+Here's an example:
+
+class MyBar;
+
+class Foo
+{
+    public:
+        MyBar GetMyBar() const { return mMyBar; } // accessor
+        void SetMyBar(MyBar aMyBar) { mMyBar = aMyBar; } // mutator
+
+    private:
+        MyBar mMyBar;
+}
+It's best practice to make data members private (as in the example above) and only access them via accessors and mutators. This is for the following reasons:
+
+You know when they are accessed (and can debug this via a breakpoint).
+The mutator can validate the input to ensure it fits within certain constraints.
+If you need to change the internal implementation, you can do so without breaking a lot of external code -- instead you just modify the way the accessors/mutators reference the internal data.
