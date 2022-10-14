@@ -1,9 +1,3 @@
-/*
-author : Anmol Tomer
-email : anmol3540@gmail.com
-
-*/
-
 #include <iostream>
 using namespace std;
 class Your; // So we do class Your; before its declaration so compiler understands it on Line #14
