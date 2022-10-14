@@ -34,12 +34,7 @@ int main()
 Say we have a class Test as above and we have private, protected and public data members of it.
 
 */
-/*
-/*
-author : Anmol Tomer
-email : anmol3540@gmail.com
 
-*/
 #include <iostream>
 using namespace std;
 int main()
