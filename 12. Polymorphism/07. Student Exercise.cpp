@@ -1,9 +1,3 @@
-/*
-author : Anmol Tomer
-email : anmol3540@gmail.com
-
-*/
-
 #include <iostream>
 #include <iomanip> // To set number of decimal in output of area and perimeter
 using namespace std;
