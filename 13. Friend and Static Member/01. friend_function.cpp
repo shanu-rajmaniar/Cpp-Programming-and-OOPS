@@ -32,7 +32,6 @@ int main()
 
 /*
 Say we have a class Test as above and we have private, protected and public data members of it.
-
 */
 
 #include <iostream>
