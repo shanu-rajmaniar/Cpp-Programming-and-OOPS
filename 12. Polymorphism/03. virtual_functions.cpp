@@ -4,13 +4,13 @@ using namespace std;
 class BasicCar
 {
 public:
-    virtual void start() { cout << "BasicCar Started." << endl; }
+    virtual void start() { cout << "Basic Car Started." << endl; }
 };
 
 class AdvancedCar : public BasicCar
 {
 public:
-    void start() { cout << "AdvancedCar Started." << endl; }
+    void start() { cout << "Advanced Car Started." << endl; }
 };
 
 int main()
