@@ -70,7 +70,7 @@ int main()
 
 ## Problem with Destructors:
 
-- Say in main class you have a pointer, p to **Base** class but using that pointer we make object of **Derived** class in foll. manner.
+- Say in main class you have a pointer, p to **Base** class but using that pointer we make object of **Derived** class in following manner.
 
 ```cpp
 main()
